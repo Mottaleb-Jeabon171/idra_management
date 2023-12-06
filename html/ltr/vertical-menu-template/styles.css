@@ -1,0 +1,80 @@
+.popup-container {
+    z-index: 999;
+    position: fixed;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    padding: 15px;
+  }
+  
+  
+  
+  
+  .popup-edit {
+    z-index: 999;
+    position: fixed;
+    width: 50%;
+    top: 5%;
+    left: 30%;
+    padding: 15px;
+    overflow-y: auto;
+  }
+  
+  
+  .close-btn {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  
+  
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  body{
+    font-size: 15px;
+  }
+
+
+
+/* Add button start */
+
+.container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.my-button {
+    padding: 8px 8px;
+    font-size: 16px;
+    background-color: rgb(209, 206, 206);    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+  background-color: rgb(209, 206, 206);    
+  color: rgb(236, 226, 226);
+}
+
+/* Add button End  */

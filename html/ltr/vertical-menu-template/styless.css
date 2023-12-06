@@ -1,0 +1,128 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins' sans-serif;
+}
+
+
+
+/* Head css --start */
+
+.head-content{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(233, 255, 255);
+}
+.head{
+    background-color: rgb(191, 202, 202);
+}
+.head h1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.head h2{
+    padding-bottom: 18px;
+    text-align: center;
+}
+.left-colum{
+    border: 2px solid #d0e8e8;
+}
+
+.left-colum p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Head css --Emd */
+
+
+
+.sub-form p{
+    margin: 0 10px;
+    font-size: 16px;
+    color: rgb(38, 77, 77);
+
+}
+form {
+    border-radius: 10px;
+    background: rgb(208, 232, 232);
+    padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .head h1{
+        padding: 0 10px;
+    }
+
+    .sub-form{
+        flex-direction: column;
+    }
+
+    .form-title{
+        width: 100%;
+    }
+    .form-inputs{
+        width: 100%;
+    }
+    .form-inputs span{
+        margin: 0;
+    }
+
+}
+
+
+@media screen and ( min-width: 768px) and (max-width: 1023px) {
+
+    /* overflow-x:auto;" */
+    .sub-form{
+        flex-direction: column;
+    }
+    .form-title{
+        width: 100%;
+    }
+    .form-inputs{
+        width: 100%;
+    }
+    .form-inputs span{
+        margin: 0;
+    }
+    
+}
+
+
+@media screen and (min-width: 1024px){
+    .sub-form{
+        display: flex;
+        flex-direction: row;
+    }
+    .form-title{
+        width: 40%;
+    }
+    .form-inputs{
+        width: 60%;
+    }
+    .form-inputs span{
+        margin: 4px 0;
+    }
+    span .col-2{
+        padding: 0 4px;
+    }
+
+    .left-colum{
+        width: 40% !important;
+    }
+    .right-colum{
+        width: 60% !important;
+    }
+
+
+
+
+}
+
+
+
+
+
